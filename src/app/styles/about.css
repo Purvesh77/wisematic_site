@@ -1,0 +1,56 @@
+/* Image Animations - Continuous Scaling */
+@keyframes imageScaleUpThenDown {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+}
+
+.image-animation-1,
+.image-animation-2,
+.image-animation-3,
+.image-animation-4 {
+  animation: imageScaleUpThenDown 3s ease-in-out infinite;
+}
+
+/* Text Animations - Fade In and Slide Up */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 2s ease-out infinite;
+}
+
+/* Box Animations - Fade In and Slide Up */
+@keyframes fadeInUpBox {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up-box {
+  animation: fadeInUpBox 2s ease-out infinite;
+}
