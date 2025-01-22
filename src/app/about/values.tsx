@@ -26,7 +26,7 @@ const Values = () => {
 
         <div className="flex flex-col ">
 
-        <p className="text-lg text-gray-700  p-10 mt-10 "
+        <p className="text-xl text-black pt-10 pl-20 mt-10 "
         style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
          Collaboration fuels innovation and drives success. Wisematic fosters a culture of seamless collaboration.
         </p>

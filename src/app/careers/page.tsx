@@ -16,22 +16,7 @@ const Careers = () => {
       <Header />
       
       
-      <section className="px-40 pt-40 pb-20 ">
-        <h1 className="text-white text-4xl font-bold mb-6"
-         style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}>
-         Carrers
-         <div className="text-white text-sm flex items-center mt-4"
-          style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-         <a href="/" >
-      Home
-    </a>
-    <span className="mx-4">&gt;</span>
-    <span>Careers</span>
-   
-  </div>
-        </h1>
-      </section>
-
+     
 
       {/* <section className="flex flex-col items-center justify-center text-center p-40 bg-[#dfeef1]">
   <h1 className="text-4xl font-bold text-[#2C2C2C] mb-4"

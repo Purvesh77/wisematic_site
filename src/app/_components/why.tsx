@@ -22,11 +22,9 @@ const Why = () => {
     <div className=" min-h-screen flex flex-col items-center justify-center">
       {/* Header Text */}
       <section className="px-40 py-16 text-center">
-        <h1 className="text-4xl font-serif italic font-bold bg-gradient-to-r from-[#584BF4] to-[#28C5AD] bg-clip-text text-transparent leading-tight mb-6">
-          Why Us
-        </h1>
-        <h2 className="text-5xl font-semibold text-black mb-4 text-center"
-        style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}>
+       
+        <h2 className="text-6xl  text-black mb-4 text-center"
+        style={{ fontFamily: "'Poppins', sans-serif"}}>
           Why Wisematic
         </h2>
         <p className="text-lg text-gray-700 mb-4 p-10 text-center"

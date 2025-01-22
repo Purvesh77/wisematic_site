@@ -15,36 +15,49 @@ const LearningPage = () => {
     <div>
       <Header />
 
-      <section className="px-40 pt-40 pb-20 text-center">
-        <h1 className="text-4xl font-bold mb-6">
-          Welcome to Wisematic Learning Center
-        </h1>
-      </section>
-
+      
       <div>
-        <div className="px-20 py-20 bg-[#F7FFFA]">
-          <h2 className="text-xl text-gray-700 mb-4 text-center pt-10 pb-10 pl-40 pr-40"
-          style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-            This is only for Wisematic family. You can use your official user id
-            and password to login and educate yourself. You can access the
-            latest and updated training program to keep yourself updated with
-            the dynamic world of technology.
-          </h2>
+      <div className="relative z-0">
+      <div
+    className="circlePosition w-[800px] h-[800px] bg-[#20D9A1] rounded-[100%] absolute  blur-[100px] top-[30%] left-[10%]"
+    style={{ opacity: 0.3}}
+  ></div>
+       <div
+    className="circlePosition w-[800px] h-[800px] bg-[#5F39FF] rounded-[100%] absolute  blur-[100px] top-[30%] left-[40%]"
+    style={{ opacity: 0.3}}
+  ></div>
+      <section className="px-40 pt-40 flex flex-col lg:flex-row items-center justify-between lg:px-40 py-16 gap-10"
+      style={{paddingLeft: '120px', paddingRight: '120px'}}>
+        <div className="w-full md:w-1/2 text-left space-y-4 ">
+         
+        <h2 className="text-6xl  text-black mb-4 "
+        style={{ fontFamily: "'Poppins', sans-serif", maxWidth: '600px',  }}>
+         Welcome to Wisematic Learning Center
+        </h2>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 p-20 pt-40 gap-10 bg-[#dfeef1]">
+        <div className="flex flex-col ">
+
+        <p className="text-xl text-black pt-10 pl-20 mt-10 "
+        style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
+         Collaboration fuels innovation and drives success. Wisematic fosters a culture of seamless collaboration.
+        </p>
+        </div>
+      </section>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 pr-40 pl-20 gap-10 ">
           {/* Left Column: Image with Boxes */}
           <div className="flex flex-col items-center mt-20">
             {/* Image */}
             <img
               src="/learn.jpg"
               alt="Contact Illustration"
-              className="rounded-lg shadow-lg mb-8 w-full max-w-lg"
+              className="rounded-lg z-10 shadow-lg mb-8 w-full max-w-lg"
             />
           </div>
 
           {/* Right Column: Contact Form */}
-          <div className="bg-white shadow-lg rounded-lg p-8 flex flex-col justify-center">
+          <div className="bg-white z-10 shadow-lg rounded-lg p-8 flex flex-col justify-center">
           <div className="flex justify-center items-center mb-6">
     <img
       src="/logo.png"
@@ -136,7 +149,7 @@ const LearningPage = () => {
                 </label>
                 <a
                   href="/forgotPassword"
-                  className="text-[#20D9A1] hover:underline text-sm"
+                  className="text-black hover:underline text-sm"
                 >
                   Forgot Password?
                 </a>
@@ -145,7 +158,7 @@ const LearningPage = () => {
               {/* Submit Button */}
               <button
                 type="submit"
-                className="bg-gradient-to-r from-[#28C5AD] to-[#584BF4] hover:bg-gradient-to-r hover:from-[#584BF4] hover:to-[#28C5AD] text-white text-center font-bold rounded-full hover:opacity-90 transition-opacity py-4 px-10"
+                className="bg-[#303030] text-white text-center font-bold rounded-full hover:opacity-90 transition-opacity py-4 px-10"
               >
                 Login
               </button>
@@ -153,7 +166,8 @@ const LearningPage = () => {
           </div>
         </div>
       </div>
-      <div className="pt-60 bg-[#F7FFFA] "></div>
+      </div>
+      <div className="pt-60 "></div>
       <Footer/>
     </div>
   );

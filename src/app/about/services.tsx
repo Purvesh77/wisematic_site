@@ -129,7 +129,7 @@ const Services = () => {
     
   return (
     <div>
-          <section className="px-40 pt-60 text-center ">
+          <section className="px-40 pt-20 text-center ">
          <h1 className="text-5xl  text-black mb-6"
          style={{ fontFamily: "'Poppins', sans-serif"}}>
          How we can help you?

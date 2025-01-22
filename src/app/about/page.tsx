@@ -16,6 +16,7 @@ import Hero from "./hero";
 import About from "./about";
 import Values from "./values";
 import Services from "./services";
+import Work from "./work";
 
 const AboutUsPage = () => {
 
@@ -26,6 +27,8 @@ const AboutUsPage = () => {
     <About/>
     <Values/>
     <Services/>
+    <Work/>
+    <Footer/>
     </div>
   )
 }
