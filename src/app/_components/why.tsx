@@ -19,7 +19,7 @@ const Why = () => {
   ];
 
   return (
-    <div className="bg-[#F7FFFA] min-h-screen flex flex-col items-center justify-center">
+    <div className=" min-h-screen flex flex-col items-center justify-center">
       {/* Header Text */}
       <section className="px-40 py-16 text-center">
         <h1 className="text-4xl font-serif italic font-bold bg-gradient-to-r from-[#584BF4] to-[#28C5AD] bg-clip-text text-transparent leading-tight mb-6">
@@ -39,17 +39,27 @@ const Why = () => {
       </section>
 
       {/* 9 Boxes in 3 Columns */}
+      <div className="relative z-0">
+      <div
+    className="circlePosition w-[700px] h-[600px] bg-[#20D9A1] rounded-[100%] absolute  blur-[100px] top-[0%] left-[-10%]"
+    style={{ opacity: 0.4 }}
+  ></div>
+       <div
+    className="circlePosition w-[700px] h-[600px] bg-[#5F39FF] rounded-[100%] absolute  blur-[100px] top-[0%] left-[40%]"
+    style={{ opacity: 0.4 }}
+  ></div>
       <section className="px-4 -pt-10 pb-40 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {features.map((feature, index) => (
           <div
             key={index}
-            className="bg-[#2C2C2C] text-white px-6 py-8 flex flex-col items-center justify-center rounded-lg shadow-lg"
+            className="bg-white z-10 text-white px-6 py-8 flex flex-col items-center justify-center rounded-lg shadow-lg"
           >
-            <div className="text-[#20D9A1] text-4xl mb-4">{feature.icon}</div>
-            <p className="text-center text-lg font-medium">{feature.text}</p>
+            <div className="text-[#303030] text-4xl mb-4 ">{feature.icon}</div>
+            <p className="text-center text-[#303030] text-lg font-medium">{feature.text}</p>
           </div>
         ))}
       </section>
+      </div> 
     </div>
   );
 };

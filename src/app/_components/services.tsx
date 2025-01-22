@@ -7,41 +7,44 @@ import { FaLaptopCode, FaMobileAlt, FaCloud, FaDatabase, FaRobot, FaBullhorn  } 
 
 const Services = () => {
   return (
-    <div className="bg-[#F7FFFA]"> {/* Overall page background */}
+    <div> {/* Overall page background */}
       {/* Header Text */}
-      <section className="px-40 pt-40 text-center">
-        <h1 className="text-4xl font-serif italic font-bold bg-gradient-to-r from-[#584BF4] to-[#28C5AD] bg-clip-text text-transparent leading-tight mb-6">
-          Services
-        </h1>
-        <h2 className="text-5xl font-semibold text-black mb-4 text-center"
-        style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}>
-          Service We Provide
+      
+      <section className="px-40 pt-40 flex flex-col lg:flex-row items-center justify-between lg:px-40 py-16 gap-10"
+      style={{paddingLeft: '120px', paddingRight: '120px'}}>
+        <h2 className="text-6xl  text-black mb-4 "
+        style={{ fontFamily: "'Poppins', sans-serif", maxWidth: '600px',  }}>
+         Provide powerful solutions
+         at all times.
         </h2>
-        <p className="text-lg text-gray-700 mb-4 p-10 text-center"
+        <div className="flex flex-col ">
+
+        <p className="text-lg text-gray-700  p-10 mt-10 "
         style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-          At Wisematic, we offer a comprehensive suite of services designed to
-          elevate your business and ensure lasting success. Our diverse range of
-          expertise covers every aspect of the digital landscape, allowing us to
-          provide tailored solutions that meet your unique needs.
+         Supercharge your productivity and optimize your workflow with Wisematic.
         </p>
+        </div>
       </section>
 
       {/* Services Cards */}
-      <section className="px-4 pt-10 pb-40 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 bg-[#F7FFFA] ml-auto "
-        style={{paddingLeft: '180px', paddingRight: '180px'}}
+      <div className="relative z-0">
+      <div
+    className="circlePosition w-[750px] h-[600px] bg-[#20D9A1] rounded-[100%] absolute  blur-[100px] top-[15%] left-[10%]"
+    style={{ opacity: 0.3}}
+  ></div>
+       <div
+    className="circlePosition w-[750px] h-[600px] bg-[#5F39FF] rounded-[100%] absolute  blur-[100px] top-[15%] left-[40%]"
+    style={{ opacity: 0.3}}
+  ></div>
+      <section className="px-4 pt-10 pb-40 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ml-auto "
+        style={{paddingLeft: '120px', paddingRight: '120px'}}
       >
         {/* Technology Consulting Card */}
-        <div className="bg-[#2C2C2C] text-white px-4 py-6 flex flex-col items-center justify-between rounded-lg font-bold w-[350px] min-h-[28rem] overflow-hidden">
-          <div
-            className="flex items-center justify-center rounded-full bg-gradient-to-r from-[#28C5AD] to-[#584BF4]"
-            style={{
-              width: "75px",
-              height: "75px",
-            }}
-          >
-            <FaLaptopCode className="text-3xl text-white" /> {/* Icon inside circle */}
-          </div>
-          <h3 className="text-4xl text-[#28C5AD] mb-3 text-center mt-8"
+        <div className="shadow-lg z-10 bg-white text-gray-700 px-4 py-6 flex flex-col items-center justify-between rounded-lg font-bold w-[400px] h-[380px] overflow-hidden">
+        
+            <FaLaptopCode className="text-6xl text-[#303030] -ml-60" /> 
+          
+          <h3 className="text-3xl text-black mb-3 text-center mt-8"
           style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}>Technology Consulting</h3>
           <p className="text-center mb-3 mt-3"
           style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
@@ -49,24 +52,18 @@ const Services = () => {
           </p>
           <Link
             href="/service1"
-            className="bg-gradient-to-r from-[#28C5AD] to-[#584BF4] hover:bg-gradient-to-r hover:from-[#584BF4] hover:to-[#28C5AD] text-white px-5 py-2 rounded-full inline-block font-semibold text-center mt-auto"
+            className="bg-gray-100 text-white px-8 py-2 rounded-full inline-block font-semibold text-center mt-auto -mr-60"
           >
-            View More
+             <span className="ml-2 text-[#303030] text-3xl">↗</span>
           </Link>
         </div>
 
         {/* Application Services Card */}
-        <div className="bg-[#2C2C2C] text-white px-4 py-6 flex flex-col items-center justify-between rounded-lg font-bold  w-[350px] min-h-[28rem] overflow-hidden">
-          <div
-            className="flex items-center justify-center rounded-full bg-gradient-to-r from-[#28C5AD] to-[#584BF4]"
-            style={{
-              width: "75px",
-              height: "75px",
-            }}
-          >
-            <FaMobileAlt className="text-3xl text-white" /> {/* Icon inside circle */}
-          </div>
-          <h3 className="text-4xl text-[#28C5AD] mb-3 mt-8 text-center"
+        <div className="shadow-lg z-10 bg-white text-gray-700 px-4 py-6 flex flex-col items-center justify-between rounded-lg font-bold w-[400px] h-[380px] overflow-hidden">
+         
+            <FaMobileAlt className="text-6xl text-[#303030] -ml-60" /> {/* Icon inside circle */}
+         
+          <h3 className="text-3xl text-black mb-3 mt-8 text-center "
           style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}>Application Services</h3>
           <p className="text-center mb-3 mt-3"
           style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
@@ -74,24 +71,18 @@ const Services = () => {
           </p>
           <Link
             href="/service2"
-            className="bg-gradient-to-r from-[#28C5AD] to-[#584BF4] hover:bg-gradient-to-r hover:from-[#584BF4] hover:to-[#28C5AD] text-white px-5 py-2 rounded-full inline-block font-semibold text-center mt-auto"
+            className="bg-gray-100 text-white px-8 py-2 rounded-full inline-block font-semibold text-center mt-auto -mr-60"
           >
-            View More
+            <span className="ml-2 text-[#303030] text-3xl">↗</span>
           </Link>
         </div>
 
                 {/* Software as Service Card */}
-        <div className="bg-[#2C2C2C] text-white px-4 py-6 flex flex-col items-center justify-between rounded-lg font-bold  w-[350px] min-h-[28rem] overflow-hidden">
-        <div
-            className="flex items-center justify-center rounded-full bg-gradient-to-r from-[#28C5AD] to-[#584BF4]"
-            style={{
-              width: "75px",
-              height: "75px",
-            }}
-          >
-            <FaCloud className="text-3xl text-white" /> {/* Icon inside circle */}
-          </div>
-         <h3 className="text-4xl text-[#28C5AD] mb-3 mt-8 text-center"
+        <div className="shadow-lg z-10 bg-white text-gray-700 px-4 py-6 flex flex-col items-center justify-between rounded-lg font-bold w-[400px] h-[380px] overflow-hidden">
+       
+            <FaCloud className="text-6xl text-[#303030] -ml-60"  /> {/* Icon inside circle */}
+        
+         <h3 className="text-3xl text-black mb-3 mt-8 text-center "
          style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}>Software as Service</h3>
          <p className="text-center mb-3 mt-3"
          style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
@@ -99,24 +90,18 @@ const Services = () => {
            </p>
            <Link
             href="/service3"
-            className="bg-gradient-to-r from-[#28C5AD] to-[#584BF4] hover:bg-gradient-to-r hover:from-[#584BF4] hover:to-[#28C5AD] text-white px-5 py-2 rounded-full inline-block font-semibold text-center mt-auto"
+            className="bg-gray-100 text-white px-8 py-2 rounded-full inline-block font-semibold text-center mt-auto -mr-60"
           >
-            View More
+            <span className="ml-2 text-[#303030] text-3xl">↗</span>
           </Link>
          </div>
 
          {/* Data Analytics Card */}
-      <div className="bg-[#2C2C2C] text-white px-4 py-6 flex flex-col items-center justify-between rounded-lg font-bold  w-[350px] min-h-[28rem] overflow-hidden">
-      <div
-            className="flex items-center justify-center rounded-full bg-gradient-to-r from-[#28C5AD] to-[#584BF4]"
-            style={{
-              width: "75px",
-              height: "75px",
-            }}
-          >
-            <FaDatabase className="text-3xl text-white" /> {/* Icon inside circle */}
-          </div>
-           <h3 className="text-4xl text-[#28C5AD] mb-3 mt-8 text-center"
+      <div className="shadow-lg z-10 bg-white text-gray-700 px-4 py-6 flex flex-col items-center justify-between rounded-lg font-bold w-[400px] h-[380px] overflow-hidden">
+     
+            <FaDatabase className="text-6xl text-[#303030] -ml-60" /> {/* Icon inside circle */}
+          
+           <h3 className="text-3xl text-black mb-3 mt-8 text-center -ml-20"
            style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}>Data Analytics</h3>
            <p className="text-center mb-3 mt-3"
            style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
@@ -124,24 +109,18 @@ const Services = () => {
            </p>
           <Link
              href="/service4"
-             className="bg-gradient-to-r from-[#28C5AD] to-[#584BF4] hover:bg-gradient-to-r hover:from-[#584BF4] hover:to-[#28C5AD] text-white px-5 py-2 rounded-full inline-block font-semibold text-center mt-auto"
+             className="bg-gray-100 text-white px-8 py-2 rounded-full inline-block font-semibold text-center mt-auto -mr-60"
           >
-            View More
+            <span className="ml-2 text-[#303030] text-3xl">↗</span>
           </Link>
         </div>
 
          {/* AI & Automation Card */}
-         <div className="bg-[#2C2C2C] text-white px-4 py-6 flex flex-col items-center justify-between rounded-lg font-bold  w-[350px] min-h-[28rem] overflow-hidden">
-         <div
-            className="flex items-center justify-center rounded-full bg-gradient-to-r from-[#28C5AD] to-[#584BF4]"
-            style={{
-              width: "75px",
-              height: "75px",
-            }}
-          >
-            <FaRobot className="text-3xl text-white" /> {/* Icon inside circle */}
-          </div>
-           <h3 className="text-4xl text-[#28C5AD] mb-3 mt-8 text-center"
+         <div className="shadow-lg z-10 bg-white text-gray-700 px-4 py-6 flex flex-col items-center justify-between rounded-lg font-bold w-[400px] h-[380px] overflow-hidden">
+        
+            <FaRobot className="text-6xl text-[#303030] -ml-60" /> {/* Icon inside circle */}
+         
+           <h3 className="text-3xl text-black mb-3 mt-8 text-center -ml-20"
            style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}>AI & Automation</h3>
            <p className="text-center mb-3 mt-3"
            style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
@@ -149,24 +128,18 @@ const Services = () => {
            </p>
           <Link
             href="/service5"
-            className="bg-gradient-to-r from-[#28C5AD] to-[#584BF4] hover:bg-gradient-to-r hover:from-[#584BF4] hover:to-[#28C5AD] text-white px-5 py-2 rounded-full inline-block font-semibold text-center mt-auto"
+            className="bg-gray-100 text-white px-8 py-2 rounded-full inline-block font-semibold text-center mt-auto -mr-60"
           >
-            View More
+            <span className="ml-2 text-[#303030] text-3xl">↗</span>
           </Link>
         </div>
 
         {/* Digital Marketing Card */}
-                 <div className="bg-[#2C2C2C] text-white px-4 py-6 flex flex-col items-center justify-between rounded-lg font-bold  w-[350px] min-h-[28rem] overflow-hidden">
-                 <div
-            className="flex items-center justify-center rounded-full bg-gradient-to-r from-[#28C5AD] to-[#584BF4]"
-            style={{
-              width: "75px",
-              height: "75px",
-            }}
-          >
-            <FaBullhorn  className="text-3xl text-white" /> {/* Icon inside circle */}
-          </div>
-           <h3 className="text-4xl text-[#28C5AD] mb-3 mt-8 text-center"
+                 <div className="shadow-lg z-10 bg-white text-gray-700 px-4 py-6 flex flex-col items-center justify-between rounded-lg font-bold w-[400px] h-[380px] overflow-hidden">
+                 
+            <FaBullhorn  className="text-6xl text-[#303030] -ml-60" /> {/* Icon inside circle */}
+         
+           <h3 className="text-3xl text-black mb-3 mt-8 text-center -ml-20"
            style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}>Digital Marketing</h3>
            <p className="text-center mb-3 mt-3"
            style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
@@ -174,12 +147,13 @@ const Services = () => {
            </p>
            <Link
              href="/service6"
-            className="bg-gradient-to-r from-[#28C5AD] to-[#584BF4] hover:bg-gradient-to-r hover:from-[#584BF4] hover:to-[#28C5AD] text-white px-5 py-2 rounded-full inline-block font-semibold text-center mt-auto"
+            className="bg-gray-100 text-white px-8 py-2 rounded-full inline-block font-semibold text-center mt-auto -mr-60"
           >
-            View More
+            <span className="ml-2 text-[#303030] text-3xl">↗</span>
            </Link>
            </div>
       </section>
+      </div>
     </div>
   );
 };

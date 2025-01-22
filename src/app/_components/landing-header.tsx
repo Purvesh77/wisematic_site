@@ -11,7 +11,7 @@ const Header = () => {
     <header
       className="text-white flex justify-between items-center px-6"
       style={{
-        backgroundColor: "#232323",
+        backgroundColor: "#333",
         height: "100px", // Fixed height for the header
       }}
     >

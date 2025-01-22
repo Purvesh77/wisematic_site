@@ -4,13 +4,22 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div className="bg-[#F7FFFA] min-h-screen flex flex-col items-center justify-center">
+    <div className="relative min-h-screen flex flex-col items-center justify-center">
+      
+      <div
+    className="circlePosition w-[750px] h-[600px] bg-[#20D9A1] rounded-[100%] absolute  blur-[100px] top-[30%] left-[10%]"
+    style={{ opacity: 0.4 }}
+  ></div>
+       <div
+    className="circlePosition w-[750px] h-[600px] bg-[#5F39FF] rounded-[100%] absolute  blur-[100px] top-[30%] left-[40%]"
+    style={{ opacity: 0.4 }}
+  ></div>
       {/* Header Section */}
       <section className="text-center px-6 py-12">
         <h1 className="text-4xl font-serif italic font-bold bg-gradient-to-r from-[#584BF4] to-[#28C5AD] bg-clip-text text-transparent leading-tight mb-4">
           Contact Us
         </h1>
-        <h2 className="text-5xl font-semibold text-black mb-6"
+        <h2 className="z-10 text-5xl font-semibold text-black mb-6"
         style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}>
           Get In Touch
         </h2>
@@ -19,22 +28,22 @@ const ContactUs = () => {
 
       {/* Contact Section */}
       <section className="px-6 lg:px-40 py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 ">
           {/* Left Column: Image with Boxes */}
           <div className="flex flex-col items-center mt-20">
             {/* Image */}
             <img
               src="/contact.jpg" // Replace this URL with your actual image URL
               alt="Contact Illustration"
-              className="rounded-lg shadow-lg mb-8 w-full max-w-lg"
+              className="z-10 rounded-lg shadow-lg mb-8 w-full max-w-lg"
             />
 
             {/* Boxes with Icons */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-lg">
               {/* Phone Box */}
-              <div className="bg-white shadow-md rounded-lg p-6 flex items-center gap-4">
+              <div className="bg-white z-10 shadow-md rounded-lg p-6 flex items-center gap-4">
                 <div className="flex-shrink-0">
-                  <div className="p-3 bg-[#28C5AD] text-white rounded-full">
+                  <div className="p-3 z-10 bg-[#303030] text-white rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -59,9 +68,9 @@ const ContactUs = () => {
               </div>
 
               {/* Email Box */}
-              <div className="bg-white shadow-md rounded-lg p-6 flex items-center gap-4">
+              <div className="bg-white z-10 shadow-md rounded-lg p-6 flex items-center gap-4">
                 <div className="flex-shrink-0">
-                  <div className="p-3 bg-[#584BF4] text-white rounded-full">
+                  <div className="p-3 bg-[#303030] text-white rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -88,7 +97,7 @@ const ContactUs = () => {
           </div>
 
           {/* Right Column: Contact Form */}
-          <div className="bg-white shadow-lg rounded-lg p-8 flex flex-col justify-center">
+          <div className="bg-white z-10 shadow-lg rounded-lg p-8 flex flex-col justify-center">
             <h3 className="text-2xl font-semibold mb-6 text-gray-800">
               Send Us a Message
             </h3>
@@ -105,7 +114,7 @@ const ContactUs = () => {
                   type="text"
                   id="name"
                   placeholder="Your Name"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#20D9A1]"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none text-black"
                   required
                 />
               </div>
@@ -121,7 +130,7 @@ const ContactUs = () => {
                   type="email"
                   id="email"
                   placeholder="Your Email"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#20D9A1]"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none text-black"
                   required
                 />
               </div>
@@ -137,14 +146,14 @@ const ContactUs = () => {
                   id="message"
                   rows="4"
                   placeholder="Your Message"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#20D9A1]"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none text-black"
                   required
                 ></textarea>
               </div>
               {/* Submit Button */}
               <button
                 type="submit"
-                className="bg-gradient-to-r from-[#28C5AD] to-[#584BF4] hover:bg-gradient-to-r hover:from-[#584BF4] hover:to-[#28C5AD] text-white text-center font-bold rounded-full hover:opacity-90 transition-opacity py-4 px-10"
+                className="bg-[#303030] text-white text-center font-bold rounded-full hover:opacity-90 transition-opacity py-4 px-10"
               >
                 Send Message
               </button>
@@ -152,6 +161,7 @@ const ContactUs = () => {
           </div>
         </div>
       </section>
+      <div className="pb-60"></div>
     </div>
   );
 };
