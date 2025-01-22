@@ -32,7 +32,7 @@ const ContactUs = () => {
       
         
           {/* Right Column: Contact Form */}
-          <div className=" z-10 p-8 relative flex flex-col justify-center">
+          <div className=" z-10 p-8 relative flex flex-col justify-center -mt-20">
           <form className="space-y-6 flex flex-col items-center w-[120%] mx-auto">
   {/* Name and Email Input */}
   <div className="flex flex-row gap-4 w-full">
@@ -88,7 +88,7 @@ const ContactUs = () => {
   {/* Submit Button */}
   <button
     type="submit"
-    className="bg-[#303030] z-10 text-white text-center font-bold rounded-full hover:opacity-90 transition-opacity py-4 px-10"
+    className="bg-[#303030] z-10  text-white text-center font-bold rounded-full hover:opacity-90 transition-opacity py-4 px-10"
   >
     Send Message
   </button>
