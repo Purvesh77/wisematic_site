@@ -3,10 +3,11 @@ import HeroSection from "./_components/landing-hero";
 import AboutUs from "./_components/about-us";
 import Services from "./_components/services";
 import SolutionsSection from "./_components/Powerful_Section";
-import TechnicalSupportSection from "./_components/TechnicalSupportSection"; // Import the new section
+import TechnicalSupportSection from "./_components/TechnicalSupportSection";
 import Why from "./_components/why";
 import ContactUs from "./_components/contact_us";
 import Footer from "./_components/footer";
+import BlogSection from "./_components/blog-section"; // Import the new section
 
 export default function Home() {
   return (
@@ -16,7 +17,8 @@ export default function Home() {
       <AboutUs />
       <Services />
       <SolutionsSection />
-      <TechnicalSupportSection /> {/* Add the new section here */}
+      <TechnicalSupportSection />
+      <BlogSection /> {/* Add the new section here */}
       <Why />
       <ContactUs />
       <Footer />
