@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> ea36a98605a8a212f7440509f46b6cfb9e1d4ba3
 import Header from "./_components/landing-header";
 import HeroSection from "./_components/landing-hero";
 import AboutUs from "./_components/about-us";
