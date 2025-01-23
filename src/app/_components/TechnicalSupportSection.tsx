@@ -39,7 +39,7 @@ const TechnicalSupportSection = () => {
         {cards.map((card, index) => (
           <div
             key={index}
-            className="bg-white rounded-xl shadow-lg p-10 flex flex-col items-center w-96 h-80 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+            className="bg-white rounded-xl shadow-lg p-10 flex flex-col items-center w-96 h-80 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-gray-100"
           >
             {card.icon}
             <h3 className="text-2xl text-zinc-900 mb-2">{card.title}</h3>
