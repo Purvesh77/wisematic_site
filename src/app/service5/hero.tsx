@@ -8,7 +8,7 @@ const Hero = () => {
        <section className="px-40 pt-20 justify-between lg:px-40 py-16 gap-10" style={{ paddingLeft: '120px', paddingRight: '120px' }}>
        <p className="text-lg text-gray-700 text-center "
         style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-        TAILORED SOLUTIONS, REAL IMPACT
+       YOUR PARTNER IN APP DEVELOPMENT
         </p>
   <div className="flex flex-col md:flex-row items-center justify-between">
     {/* Left Section: Image and Circles */}
@@ -19,7 +19,7 @@ const Hero = () => {
 
       {/* Image */}
       <img
-        src="/techConsult.jpeg"
+        src="/dataAnalytics.jpg"
         alt="Hero Image"
         className="absolute z-10 w-[500px] h-[280px] rounded-lg top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
       />
@@ -28,7 +28,8 @@ const Hero = () => {
     {/* Right Section: Heading */}
     <div className="w-full md:w-1/2 text-left">
       <h2 className="text-6xl text-black mb-4" style={{ fontFamily: "'Poppins', sans-serif" }}>
-        Unleash Your Business Potential: Wisematic Technology Consultation
+      Unlock the Power of Your Data with Wisematic
+
       </h2>
     </div>
   </div>
@@ -37,10 +38,11 @@ const Hero = () => {
  
   <div className="flex flex-col md:flex-row items-start justify-between ">
   <div className="w-full md:w-1/2 text-left space-y-4 pl-60">
-    <h1 className="text-2xl text-gray-900">TECH CONSULTATION</h1>
+    <h1 className="text-2xl text-gray-900">
+    DATA ANALYTICS</h1>
     <p className="text-6xl text-black"
-     style={{ fontFamily: "'Poppins', sans-serif", maxWidth: '500px' }}>
-     Providing business solutions tailored to your needs.
+     style={{ fontFamily: "'Poppins', sans-serif", maxWidth: '400px' }}>
+     Unlock the Power of AI and Automation.
     </p>
   </div>
 
@@ -48,15 +50,7 @@ const Hero = () => {
   <div className="w-full md:w-1/2 text-left mr-20 pr-20">
   <p className="text-lg text-gray-500 mb-4"
              style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-              In today’s dynamic technological landscape, navigating the right solutions can be a daunting task. At Wisematic, we bridge that gap, transforming technology into a strategic advantage for your business.
-            </p>
-            <p className="text-lg text-gray-500 mb-4"
-             style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-              Our expert technology consultants are more than just advisors; they’re your innovation architects. We take a collaborative approach, delving deep into your unique needs and goals.
-            </p>
-            <p className="text-lg text-gray-500 mb-4"
-             style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 600 }}>
-              Here’s what sets Wisematic’s technology consultation apart:
+            At Wisematic, we transform raw data into actionable insights that drive business growth. Our expert team leverages advanced techniques to deliver predictive modeling, data visualization, and customer segmentation solutions tailored to your specific needs.A solid data strategy is essential for harnessing the full potential of your data. Wisematic designs data architectures that support your business goals and ensure data accessibility, integrity, and security. Our experts work closely with you to create a roadmap for data-driven success.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pr-10">
               <div className="flex items-center">
@@ -64,7 +58,7 @@ const Hero = () => {
                   <FaCheck className="text-white text-xl" />
                 </div>
                 <span className="text-black text-lg font-bold"
-                 style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Holistic Vision</span>
+                 style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Data-Driven Success</span>
               </div>
 
               <div className="flex items-center">
@@ -72,7 +66,7 @@ const Hero = () => {
                   <FaCheck className="text-white text-xl" />
                 </div>
                 <span className="text-black text-lg font-bold"
-                 style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Future-Proof Strategies</span>
+                 style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>End-to-End Expertise</span>
               </div>
 
               <div className="flex items-center">
@@ -80,7 +74,7 @@ const Hero = () => {
                   <FaCheck className="text-white text-xl" />
                 </div>
                 <span className=" text-lg text-black font-bold"
-                 style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Agile Implementation</span>
+                 style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Measurable Results</span>
               </div>
 
               <div className="flex items-center">
@@ -88,7 +82,7 @@ const Hero = () => {
                   <FaCheck className="text-white text-xl" />
                 </div>
                 <span className=" text-lg text-black font-bold"
-                 style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Tailored Recommendations</span>
+                 style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Cutting-Edge Technology</span>
               </div>
             </div>
 

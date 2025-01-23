@@ -8,7 +8,7 @@ const Hero = () => {
        <section className="px-40 pt-20 justify-between lg:px-40 py-16 gap-10" style={{ paddingLeft: '120px', paddingRight: '120px' }}>
        <p className="text-lg text-gray-700 text-center "
         style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-        TAILORED SOLUTIONS, REAL IMPACT
+       YOUR PARTNER IN APP DEVELOPMENT
         </p>
   <div className="flex flex-col md:flex-row items-center justify-between">
     {/* Left Section: Image and Circles */}
@@ -19,7 +19,7 @@ const Hero = () => {
 
       {/* Image */}
       <img
-        src="/techConsult.jpeg"
+        src="/appDev.jpg"
         alt="Hero Image"
         className="absolute z-10 w-[500px] h-[280px] rounded-lg top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
       />
@@ -28,7 +28,7 @@ const Hero = () => {
     {/* Right Section: Heading */}
     <div className="w-full md:w-1/2 text-left">
       <h2 className="text-6xl text-black mb-4" style={{ fontFamily: "'Poppins', sans-serif" }}>
-        Unleash Your Business Potential: Wisematic Technology Consultation
+      Craft exceptional digital experiences that drive business Growth
       </h2>
     </div>
   </div>
@@ -37,10 +37,11 @@ const Hero = () => {
  
   <div className="flex flex-col md:flex-row items-start justify-between ">
   <div className="w-full md:w-1/2 text-left space-y-4 pl-60">
-    <h1 className="text-2xl text-gray-900">TECH CONSULTATION</h1>
+    <h1 className="text-2xl text-gray-900">
+    APPLICATION SERVICES</h1>
     <p className="text-6xl text-black"
-     style={{ fontFamily: "'Poppins', sans-serif", maxWidth: '500px' }}>
-     Providing business solutions tailored to your needs.
+     style={{ fontFamily: "'Poppins', sans-serif", maxWidth: '400px' }}>
+     Empowering Your Business with Custom Applications.
     </p>
   </div>
 
@@ -48,15 +49,7 @@ const Hero = () => {
   <div className="w-full md:w-1/2 text-left mr-20 pr-20">
   <p className="text-lg text-gray-500 mb-4"
              style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-              In today’s dynamic technological landscape, navigating the right solutions can be a daunting task. At Wisematic, we bridge that gap, transforming technology into a strategic advantage for your business.
-            </p>
-            <p className="text-lg text-gray-500 mb-4"
-             style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-              Our expert technology consultants are more than just advisors; they’re your innovation architects. We take a collaborative approach, delving deep into your unique needs and goals.
-            </p>
-            <p className="text-lg text-gray-500 mb-4"
-             style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 600 }}>
-              Here’s what sets Wisematic’s technology consultation apart:
+             We are a team of experienced and passionate application developers who are committed to delivering innovative and high-quality solutions. We specialize in a wide range of application development services, including: Website/ Web application, Android/ IOS/ Hybrid app development, Software testing, System integration and many more. We have a proven track record of delivering successful application development projects. We work closely with our clients to ensure their needs are met and ensure to deliver high-quality applications that meet the highest standards.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pr-10">
               <div className="flex items-center">
@@ -64,7 +57,7 @@ const Hero = () => {
                   <FaCheck className="text-white text-xl" />
                 </div>
                 <span className="text-black text-lg font-bold"
-                 style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Holistic Vision</span>
+                 style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Timely Delivery</span>
               </div>
 
               <div className="flex items-center">
@@ -72,7 +65,7 @@ const Hero = () => {
                   <FaCheck className="text-white text-xl" />
                 </div>
                 <span className="text-black text-lg font-bold"
-                 style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Future-Proof Strategies</span>
+                 style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Quality</span>
               </div>
 
               <div className="flex items-center">
@@ -80,7 +73,7 @@ const Hero = () => {
                   <FaCheck className="text-white text-xl" />
                 </div>
                 <span className=" text-lg text-black font-bold"
-                 style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Agile Implementation</span>
+                 style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Innovation</span>
               </div>
 
               <div className="flex items-center">
@@ -88,7 +81,7 @@ const Hero = () => {
                   <FaCheck className="text-white text-xl" />
                 </div>
                 <span className=" text-lg text-black font-bold"
-                 style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Tailored Recommendations</span>
+                 style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Collaboration</span>
               </div>
             </div>
 
