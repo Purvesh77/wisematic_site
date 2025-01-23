@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { FaLaptopCode,FaMobileAlt,FaCloud,FaDatabase,FaRobot,FaBullhorn} from "react-icons/fa";
+import { FaLaptopCode, FaMobileAlt, FaCloud, FaDatabase, FaRobot, FaBullhorn } from "react-icons/fa";
 
 const Services = () => {
   const services = [
@@ -8,31 +8,37 @@ const Services = () => {
       icon: <FaLaptopCode className="text-5xl text-black mb-4" />,
       title: "Technology Consulting",
       description: "Our expert consultants offer strategic guidance and actionable insights, helping you leverage technology to achieve your business goals.",
+      link: "/service1"
     },
     {
       icon: <FaMobileAlt className="text-5xl text-black mb-4" />,
       title: "Application Services",
       description: "Whether you need custom application development or maintenance, our team delivers robust and innovative solutions tailored to your specific requirements.",
+      link: "/service2"
     },
     {
       icon: <FaCloud className="text-5xl text-black mb-4" />,
       title: "Software as Service",
       description: "Simplify your operations with our scalable and reliable SaaS solutions. We provide tools that empower your business to function seamlessly.",
+      link: "/service3"
     },
     {
       icon: <FaDatabase className="text-5xl text-black mb-4" />,
       title: "Data Analytics",
       description: "Our analytics services provide deep insights that drive strategic decision-making, optimize performance, and uncover new growth opportunities.",
+      link: "/service4"
     },
     {
       icon: <FaRobot className="text-5xl text-black mb-4" />,
       title: "AI & Automation",
       description: "Embrace the future with our advanced AI and automation solutions. From streamlining workflows to enhancing customer experiences.",
+      link: "/service5"
     },
     {
       icon: <FaBullhorn className="text-5xl text-black mb-4" />,
       title: "Digital Marketing",
       description: "Amplify your reach & connect with your target audience through innovative data-driven marketing strategies. We craft campaigns that resonate and convert.",
+      link: "/service6"
     },
   ];
 
@@ -48,13 +54,12 @@ const Services = () => {
       <div className="relative z-10 max-w-screen-xl">
         {/* Header Text */}
         <section className="flex flex-col lg:flex-row items-center justify-between mb-16">
-          <h2 className="text-6xl text-black mb-4" style={{ fontFamily: "'Poppins', sans-serif", maxWidth:"700px" }}>
+          <h2 className="text-6xl text-black mb-4" style={{ fontFamily: "'Poppins', sans-serif", maxWidth: "700px" }}>
             Provide powerful solutions at all times.
           </h2>
           <p className="text-lg text-gray-700 ml-4 mt-10" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-              Supercharge your productivity and optimize your workflow with Wisematic.
-            </p>
-         
+            Supercharge your productivity and optimize your workflow with Wisematic.
+          </p>
         </section>
 
         {/* Services Cards */}
@@ -71,7 +76,7 @@ const Services = () => {
               <p className="text-base mb-6" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 400 }}>
                 {service.description}
               </p>
-              <a href="#" className="bg-gray-100 text-black text-2xl px-8 py-2 ml-60 rounded-full inline-block font-semibold text-center">
+              <a href={service.link} className="bg-gray-100 text-black text-2xl px-8 py-2 ml-60 rounded-full inline-block font-semibold text-center">
                 ↗
               </a>
             </div>
