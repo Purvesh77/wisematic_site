@@ -21,7 +21,7 @@ const Services = () => {
               style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Unleash Your Business&apos;s Potential.</p>
               <p className="text-base text-gray-800 mt-2"
               style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-                We’re not just tech consultants; we’re innovation catalysts. Together, let's build a future-proof business. Envision a world where technology doesn’t just support your business—it propels it forward.
+                We&apos;re not just tech consultants; we&apos;re innovation catalysts. Together, let&apos;s build a future-proof business. Envision a world where technology doesn&apos;t just support your business—it propels it forward.
                 Every click, every line of code, and every connection takes you one step closer to your boldest ambitions. This is the future we&apos;re creating with you.
               </p>
               <p className="text-base text-gray-500 mt-2"
