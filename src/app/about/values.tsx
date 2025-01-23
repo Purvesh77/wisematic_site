@@ -69,7 +69,7 @@ const Values = () => {
                style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}>Lead The Future</h3>
                <p className="text-center text-gray-900 text-lg"
                style={{ fontFamily: "'Poppins', sans-serif"}}>
-                 Stay ahead with forward-thinking strategies and cutting-edge technology. Let’s pioneer the future of your industry.
+                 Stay ahead with forward-thinking strategies and cutting-edge technology. Let&apos;s pioneer the future of your industry.
                </p>
              </div>
            </div>

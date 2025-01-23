@@ -29,7 +29,7 @@ const Careers = () => {
     className="text-xl text-[#4D4D4D]"
     style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}
   >
-    We’re looking for talented individuals to join our dynamic team. Explore
+    We&apos;re looking for talented individuals to join our dynamic team. Explore
     exciting career opportunities!
   </p>
 

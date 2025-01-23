@@ -27,14 +27,14 @@ const Enquire = () => {
       
       {/* First Name */}
       <div className="flex flex-col">
-        <label htmlFor="firstName" className="text-gray-700 font-semibold mb-2">First Name 
-        <span className='text-red-600 ml-1 text-xl'>*</span> 
+        <label htmlFor="firstName" className="text-gray-700 font-semibold mb-2"> 
+       
         </label>
         <input
           type="text"
           id="firstName"
           name="firstName"
-          placeholder="First"
+          placeholder="First Name"
           className="px-4 py-2 border rounded-lg  "
           required
         />
@@ -42,14 +42,14 @@ const Enquire = () => {
 
       {/* Last Name */}
       <div className="flex flex-col">
-        <label htmlFor="lastName" className="text-gray-700 font-semibold mb-2">Last Name 
-           <span className='text-red-600 ml-1 text-xl'>*</span> 
+        <label htmlFor="lastName" className="text-gray-700 font-semibold mb-2"> 
+           
             </label>
         <input
           type="text"
           id="lastName"
           name="lastName"
-          placeholder="Last"
+          placeholder="Last Name"
           className="px-4 py-2 border rounded-lg  "
           required
         />
@@ -57,8 +57,8 @@ const Enquire = () => {
 
       {/* Email */}
       <div className="flex flex-col sm:col-span-2">
-        <label htmlFor="email" className="text-gray-700 font-semibold mb-2">Email 
-        <span className='text-red-600 ml-1 text-xl'>*</span> 
+        <label htmlFor="email" className="text-gray-700 font-semibold mb-2">
+        
         </label>
         <input
           type="email"
@@ -72,8 +72,8 @@ const Enquire = () => {
 
       {/* Phone */}
       <div className="flex flex-col sm:col-span-2">
-        <label htmlFor="phone" className="text-gray-700 font-semibold mb-2">Phone 
-        <span className='text-red-600 ml-1 text-xl'>*</span> 
+        <label htmlFor="phone" className="text-gray-700 font-semibold mb-2">
+        
         </label>
         <input
           type="tel"
@@ -87,15 +87,15 @@ const Enquire = () => {
 
       {/* Message */}
       <div className="flex flex-col sm:col-span-2">
-        <label htmlFor="message" className="text-gray-700 font-semibold mb-2">Your Message 
-        <span className='text-red-600 ml-1 text-xl'>*</span> 
+        <label htmlFor="message" className="text-gray-700 font-semibold mb-2">
+        
         </label>
         <textarea
           id="message"
           name="message"
           placeholder="Your Message"
           className="px-4 py-2 border rounded-lg  "
-          rows="4"
+          rows={4}
           required
         />
       </div>

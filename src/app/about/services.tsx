@@ -39,10 +39,10 @@ const Services = () => {
             Ignite Your Digital Vision.
           </p>
           <p className="text-base text-gray-800 mt-2" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-            We’re not just developers; we’re digital artisans crafting bespoke solutions. From concept to creation, we turn your ideas into extraordinary digital experiences. Let’s build something truly remarkable together.
+            We’re not just developers; we&apos;re digital artisans crafting bespoke solutions. From concept to creation, we turn your ideas into extraordinary digital experiences. Let&apos;s build something truly remarkable together.
           </p>
           <p className="text-base text-gray-500 mt-2" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-            Have any digital vision in your mind? Let’s connect!!
+            Have any digital vision in your mind? Let&apos;s connect!!
           </p>
         </>
       ),
@@ -56,7 +56,7 @@ const Services = () => {
             Revolutionize Your Business.
           </p>
           <p className="text-base text-gray-800 mt-2" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-            We’re not just AI and automation experts; we’re your future engineers. Imagine a world where intelligent machines amplify human potential. That’s the reality we’re building together. Let’s harness the power of AI and automation to transform your business and outpace the competition.
+            We&apos;re not just AI and automation experts; we&apos;re your future engineers. Imagine a world where intelligent machines amplify human potential. That&apos;s the reality we&apos;re building together. Let&apos;s harness the power of AI and automation to transform your business and outpace the competition.
           </p>
           <p className="text-base text-gray-500 mt-2" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
             Are you ready to embark on this extraordinary journey?
@@ -73,10 +73,10 @@ const Services = () => {
             Accelerate Your Business, Simplify Your World !!
           </p>
           <p className="text-base text-gray-800 mt-2" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-            We’re not just software providers; we’re business enablers. Imagine seamless operations powered by intelligent solutions. That’s the future we deliver. Our SaaS solutions are more than software; they’re strategic assets designed to boost efficiency and drive growth.
+            We&apos;re not just software providers; we&apos;re business enablers. Imagine seamless operations powered by intelligent solutions. That&apos;s the future we deliver. Our SaaS solutions are more than software; they&apos;re strategic assets designed to boost efficiency and drive growth.
           </p>
           <p className="text-base text-gray-500 mt-2" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-            Let’s partner to unlock your business’s full potential.
+            Let&apos;s partner to unlock your business&apos;s full potential.
           </p>
         </>
       ),
@@ -87,13 +87,13 @@ const Services = () => {
       description: (
         <>
           <p className="text-base text-gray-500" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-            Uncover Your Data’s Potential.
+            Uncover Your Data&apos;s Potential.
           </p>
           <p className="text-base text-gray-800 mt-2" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-            We’re not just data analysts; we’re insight architects. Imagine transforming raw data into actionable intelligence. That’s our expertise. Our data analytics solutions are more than reports; they’re strategic blueprints for growth.
+            We&apos;re not just data analysts; we&apos;re insight architects. Imagine transforming raw data into actionable intelligence. That&apos;s our expertise. Our data analytics solutions are more than reports; they&apos;re strategic blueprints for growth.
           </p>
           <p className="text-base text-gray-500 mt-2" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-            Let’s unlock the hidden value in your data together.
+            Let&apos;s unlock the hidden value in your data together.
           </p>
         </>
       ),
@@ -107,10 +107,10 @@ const Services = () => {
             Dominate the Digital Landscape.
           </p>
           <p className="text-base text-gray-800 mt-2" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-            We’re not just digital marketers; we’re growth architects. Imagine a world where every click, every impression, and every conversion drives your business forward. That’s the digital world we’ll create for you. Our strategies are more than tactics; they’re investments in your future success.
+            We&apos;re not just digital marketers; we&apos;re growth architects. Imagine a world where every click, every impression, and every conversion drives your business forward. That&apos;s the digital world we&apos;ll create for you. Our strategies are more than tactics; they&apos;re investments in your future success.
           </p>
           <p className="text-base text-gray-500 mt-2" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-            Let’s build a digital empire together.
+            Let&apos;s build a digital empire together.
           </p>
         </>
       ),

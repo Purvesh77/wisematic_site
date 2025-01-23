@@ -16,15 +16,15 @@ const About = () => {
   {/* Right Section */}
   <div className="w-full md:w-1/2 text-left mr-20 pr-40">
     <p className="text-lg text-gray-700 leading-8 mb-6">
-    At Wisematic, we recognize that in today’s fast-paced and competitive digital landscape, standing out is not just an advantage—it’s essential for success. We are passionately committed to helping your business achieve its full potential and exceed industry standards. 
+    At Wisematic, we recognize that in today&apos;s fast-paced and competitive digital landscape, standing out is not just an advantage—it&apos;s essential for success. We are passionately committed to helping your business achieve its full potential and exceed industry standards. 
     </p>
     <p className="text-lg text-gray-700 leading-8 mb-6">
-Our comprehensive suite of services is designed to ensure your brand doesn’t just survive but thrives and sets new benchmarks.
+Our comprehensive suite of services is designed to ensure your brand doesn&apos;t just survive but thrives and sets new benchmarks.
 </p>
   </div>
 </div>
 <p className="text-lg text-gray-700 leading-8 mt-2 pl-60 pr-20">
-Partner with us and experience a transformative journey where your vision meets our expertise, resulting in a powerful synergy that propels your business to new heights. At Wisematic, we don’t just make promises—we deliver results that speak for themselves.
+Partner with us and experience a transformative journey where your vision meets our expertise, resulting in a powerful synergy that propels your business to new heights. At Wisematic, we don&apos;t just make promises—we deliver results that speak for themselves.
     </p>
 
     </div>
