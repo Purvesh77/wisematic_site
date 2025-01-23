@@ -95,7 +95,7 @@ const Enquire = () => {
           name="message"
           placeholder="Your Message"
           className="px-4 py-2 border rounded-lg  "
-          rows="4"
+          rows={4}
           required
         />
       </div>
