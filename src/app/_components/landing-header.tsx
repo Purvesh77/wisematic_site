@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header
-      className="text-white flex justify-between items-center px-6"
+      className="text-white flex justify-between items-center py-12 px-6"
       style={{
         backgroundColor: "#1a1a1a",
         height: "80px",
@@ -110,7 +110,7 @@ const Header = () => {
 
         <Link
           href="/contact"
-          className="bg-gradient-to-r from-[#28C5AD] to-[#584BF4] hover:bg-gradient-to-r hover:from-[#584BF4] hover:to-[#28C5AD] text-white px-8 py-2 rounded-full text-center font-bold"
+          className="bg-gradient-to-r from-[#28C5AD] to-[#584BF4] hover:bg-gradient-to-r hover:from-[#584BF4] hover:to-[#28C5AD] text-white px-10 py-4 rounded-full text-center font-bold"
           style={{
             marginLeft: "40px",
             display: "flex",

@@ -1,8 +1,10 @@
 
 "use client";
 import Header from "../_components/landing-header";
+import Link from "next/link";
 import { FaCheck, FaMousePointer, FaPenNib, FaUsers, FaEnvelope, FaFileAlt  } from 'react-icons/fa';
 import Footer from "../_components/footer";
+
 
 const TechConsultationPage = () => {
   return (
@@ -13,9 +15,9 @@ const TechConsultationPage = () => {
         <h1 className="text-white text-4xl font-bold mb-6">
         Digital marketing
          <div className="text-white text-sm flex items-center mt-4">
-         <a href="/" >
+         <Link href="/" >
       Home
-    </a>
+    </Link>
     <span className="mx-4">&gt;</span>
     <span>Services</span>
     <span className="mx-4">&gt;</span>

@@ -23,7 +23,7 @@ const ContactUs = () => {
         </h2>
         <p className="text-lg text-gray-700 mb-20 mt-10 "
           style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500,  maxWidth:"700px" }}>
-            Our team of experts are here to help. Whatever the time of day and no matter how small the question- we're here.
+            Our team of experts are here to help. Whatever the time of day and no matter how small the question- we&apos;re here.
          </p>
       </section>
 
@@ -43,6 +43,7 @@ const ContactUs = () => {
         className="block text-black font-medium mb-2"
       >
         Name
+        <span className='text-red-600 ml-1 text-xl'>*</span> 
       </label>
       <input
         type="text"
@@ -59,6 +60,7 @@ const ContactUs = () => {
         className="block text-black font-medium mb-2"
       >
         Email
+        <span className='text-red-600 ml-1 text-xl'>*</span> 
       </label>
       <input
         type="email"
@@ -76,6 +78,7 @@ const ContactUs = () => {
       className="block text-black font-medium mb-2"
     >
       Message
+      <span className='text-red-600 ml-1 text-xl'>*</span> 
     </label>
     <textarea
       id="message"

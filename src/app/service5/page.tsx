@@ -1,7 +1,8 @@
 
 "use client";
 import Header from "../_components/landing-header";
-import { FaMobileAlt, FaGlobe, FaCheckCircle, FaShippingFast, FaPuzzlePiece, FaLightbulb, FaCheck, FaUserCog, FaBook, FaRobot, FaUtensils, FaHeartbeat, FaBullhorn, FaChartPie, FaCloud, FaTools, FaSlidersH } from 'react-icons/fa';
+import Link from "next/link";
+import { FaCheck, FaChartPie, FaCloud, FaTools, FaSlidersH } from 'react-icons/fa';
 import Footer from "../_components/footer";
 
 const TechConsultationPage = () => {
@@ -13,9 +14,9 @@ const TechConsultationPage = () => {
         <h1 className="text-white text-4xl font-bold mb-6">
         Data Analysis
          <div className="text-white text-sm flex items-center mt-4">
-         <a href="/" >
+         <Link href="/" >
       Home
-    </a>
+    </Link>
     <span className="mx-4">&gt;</span>
     <span>Services</span>
     <span className="mx-4">&gt;</span>

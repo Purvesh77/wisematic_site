@@ -20,7 +20,7 @@ const Values = () => {
          <h1 className="text-2xl text-gray-900">Our Values</h1>
         <h2 className="text-6xl  text-black mb-4 "
         style={{ fontFamily: "'Poppins', sans-serif", maxWidth: '600px',  }}>
-         Our Company's Values
+         Our Company&apos;s Values
         </h2>
         </div>
 

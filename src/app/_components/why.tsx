@@ -1,6 +1,4 @@
 
-
-
 "use client";
 import React from "react";
 import { FaShippingFast, FaSyncAlt, FaCoins, FaUserFriends, FaShieldAlt, FaStar, FaHandshake, FaInfinity, FaBookOpen } from "react-icons/fa";

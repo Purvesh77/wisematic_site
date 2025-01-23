@@ -1,8 +1,9 @@
 
 "use client";
 import Header from "../_components/landing-header";
-import { FaCheck, FaChartPie , FaTasks, FaRobot, FaMap, FaRoute, FaTools, FaBriefcase, FaBrain  } from 'react-icons/fa';
+import { FaCheck, FaChartPie , FaRobot, FaTools, FaBriefcase, FaBrain  } from 'react-icons/fa';
 import Footer from "../_components/footer";
+import Link from "next/link";
 
 const TechConsultationPage = () => {
   return (
@@ -13,9 +14,9 @@ const TechConsultationPage = () => {
         <h1 className="text-white text-4xl font-bold mb-6">
         AI & Automation
          <div className="text-white text-sm flex items-center mt-4">
-         <a href="/" >
+         <Link href="/" >
       Home
-    </a>
+    </Link>
     <span className="mx-4">&gt;</span>
     <span>Services</span>
     <span className="mx-4">&gt;</span>

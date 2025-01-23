@@ -12,7 +12,7 @@ const Hero = () => {
         </p>
         <h2 className="text-6xl  text-black mb-4 "
         style={{ fontFamily: "'Poppins', sans-serif"  }}>
-        We're powering the future of business with Wisematic
+        We&apos;re powering the future of business with Wisematic
         </h2>
       </section>
 

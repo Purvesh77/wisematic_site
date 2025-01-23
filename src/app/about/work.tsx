@@ -1,33 +1,3 @@
-// import React from 'react'
-
-// const Work = () => {
-//   return (
-//     <div>
-//       <div className="relative z-0 h-screen">
-//       <div
-//     className="circlePosition w-[770px] h-[500px] bg-[#20D9A1] rounded-[100%] absolute  blur-[100px] top-[25%] left-[10%]"
-//     style={{ opacity: 0.3}}
-//   ></div>
-//        <div
-//     className="circlePosition w-[770px] h-[500px] bg-[#5F39FF] rounded-[100%] absolute  blur-[100px] top-[25%] left-[40%]"
-//     style={{ opacity: 0.3}}
-//   ></div>
-//     <section className="px-40 pt-40 flex flex-col lg:flex-row items-center justify-between lg:px-40 py-16 gap-10"
-//       style={{paddingLeft: '120px', paddingRight: '120px'}}>
-//         <div className="w-full md:w-1/2 text-left space-y-4 ">
-//          <h1 className="text-2xl text-gray-900">Our WORK STYLE</h1>
-//         <h2 className="text-6xl  text-black mb-4 "
-//         style={{ fontFamily: "'Poppins', sans-serif", maxWidth: '600px',  }}>
-//          How We Work?
-//         </h2>
-//         </div>
-//        </section>
-//         </div>
-//     </div>
-//   )
-// }
-
-// export default Work
 
 import React from 'react';
 
