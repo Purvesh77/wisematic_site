@@ -43,6 +43,7 @@ const ContactUs = () => {
         className="block text-black font-medium mb-2"
       >
         Name
+        <span className='text-red-600 ml-1 text-xl'>*</span> 
       </label>
       <input
         type="text"
@@ -59,6 +60,7 @@ const ContactUs = () => {
         className="block text-black font-medium mb-2"
       >
         Email
+        <span className='text-red-600 ml-1 text-xl'>*</span> 
       </label>
       <input
         type="email"
@@ -76,6 +78,7 @@ const ContactUs = () => {
       className="block text-black font-medium mb-2"
     >
       Message
+      <span className='text-red-600 ml-1 text-xl'>*</span> 
     </label>
     <textarea
       id="message"

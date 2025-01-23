@@ -2,20 +2,11 @@
 
 "use client";
 import React, { useEffect, useState } from "react";
-import Link from "next/link";
 import CountUp from "react-countup";
 import '../styles/about.css'; 
 
 const AboutUs = () => {
-  const [animateImages, setAnimateImages] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setAnimateImages(true);
-    }, 500); // Delay to start the animations
-    return () => clearTimeout(timer);
-  }, []);
-
+ 
   return (
     <div>
    
