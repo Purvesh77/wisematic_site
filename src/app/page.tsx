@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Header from "./_components/landing-header";
 import HeroSection from "./_components/landing-hero";
 import AboutUs from "./_components/about-us";

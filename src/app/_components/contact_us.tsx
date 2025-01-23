@@ -23,7 +23,7 @@ const ContactUs = () => {
         </h2>
         <p className="text-lg text-gray-700 mb-20 mt-10 "
           style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500,  maxWidth:"700px" }}>
-            Our team of experts are here to help. Whatever the time of day and no matter how small the question- we're here.
+            Our team of experts are here to help. Whatever the time of day and no matter how small the question- we&apos;re here.
          </p>
       </section>
 

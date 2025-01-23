@@ -14,18 +14,6 @@ const Careers = () => {
   return (
     <div>
       <Header />
-      
-      
-     
-
-      {/* <section className="flex flex-col items-center justify-center text-center p-40 bg-[#dfeef1]">
-  <h1 className="text-4xl font-bold text-[#2C2C2C] mb-4"
-   style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}>Join Our Team, Shape the Future Sentence</h1>
-  <p className="text-xl text-[#4D4D4D]"
-   style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
-    We’re looking for talented individuals to join our dynamic team. Explore exciting career opportunities!
-  </p>
-</section> */}
 
 <section
   className="relative flex flex-col items-center justify-center text-center p-40 bg-[#dfeef1] overflow-hidden"

@@ -1,14 +1,4 @@
 "use client";
-import Link from "next/link";
-import {
-  FaLaptopCode,
-  FaMobileAlt,
-  FaCloud,
-  FaDatabase,
-  FaRobot,
-  FaBullhorn, FaSearch, FaMap, FaSync, FaRocket
-} from "react-icons/fa";
-import { useState } from "react";
 import Footer from "../_components/footer";
 
 import Header from "../_components/landing-header";

@@ -1,7 +1,6 @@
 
 
 "use client";
-import React, { useEffect, useState } from "react";
 import CountUp from "react-countup";
 import '../styles/about.css'; 
 
@@ -18,7 +17,7 @@ const AboutUs = () => {
       <CountUp start={0} end={500} duration={0.5} />+ project complete
     </span>
     <span className="text-base text-gray-700 mt-2" style={{ fontFamily: "'Poppins', sans-serif"}}>
-      Using Wisematic's solutions and loving it!
+      Using Wisematic&apos;s solutions and loving it!
     </span>
   </div>
 

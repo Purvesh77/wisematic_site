@@ -75,8 +75,6 @@
 // export default HeroSection;
 
 "use client";
-import Link from "next/link";
-import CountUp from "react-countup";
 import '../styles/hero.css'
 import { FaCheck } from "react-icons/fa";
 

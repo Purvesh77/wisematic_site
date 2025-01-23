@@ -6,7 +6,7 @@ import {
   FaCloud,
   FaDatabase,
   FaRobot,
-  FaBullhorn, FaSearch, FaMap, FaSync, FaRocket
+  FaBullhorn
 } from "react-icons/fa";
 import { useState } from "react";
 
@@ -18,7 +18,7 @@ const Services = () => {
           description: (
             <>
               <p className="text-base text-gray-500"
-              style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Unleash Your Business’s Potential.</p>
+              style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>Unleash Your Business&apos;s Potential.</p>
               <p className="text-base text-gray-800 mt-2"
               style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
                 We’re not just tech consultants; we’re innovation catalysts. Together, let's build a future-proof business. Envision a world where technology doesn’t just support your business—it propels it forward.

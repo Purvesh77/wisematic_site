@@ -1,7 +1,7 @@
 
 "use client";
 import Header from "../_components/landing-header";
-import { FaCheck, FaChartPie , FaTasks, FaRobot, FaMap, FaRoute, FaTools, FaBriefcase, FaBrain  } from 'react-icons/fa';
+import { FaCheck, FaChartPie , FaRobot, FaTools, FaBriefcase, FaBrain  } from 'react-icons/fa';
 import Footer from "../_components/footer";
 
 const TechConsultationPage = () => {

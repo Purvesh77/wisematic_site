@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaCheck, FaCogs, FaTasks, FaChartLine, FaRobot, FaRoute  } from 'react-icons/fa';
+import { FaCogs, FaTasks, FaChartLine, FaRobot, FaRoute  } from 'react-icons/fa';
 
 const Cards = () => {
   return (

@@ -48,16 +48,13 @@ const Services = () => {
       <div className="relative z-10 max-w-screen-xl">
         {/* Header Text */}
         <section className="flex flex-col lg:flex-row items-center justify-between mb-16">
-          <h2 className="text-6xl text-black mb-4" style={{ fontFamily: "'Poppins', sans-serif" }}>
+          <h2 className="text-6xl text-black mb-4" style={{ fontFamily: "'Poppins', sans-serif", maxWidth:"700px" }}>
             Provide powerful solutions at all times.
           </h2>
-          <div className="flex items-center text-gray-500">
-            <span className="text-2xl mr-2">✱</span>
-            <span className="text-2xl mr-2">✹</span>
-            <p className="text-lg text-gray-700 ml-4" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
+          <p className="text-lg text-gray-700 ml-4 mt-10" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
               Supercharge your productivity and optimize your workflow with Wisematic.
             </p>
-          </div>
+         
         </section>
 
         {/* Services Cards */}

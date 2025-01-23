@@ -1,7 +1,6 @@
 
 "use client";
 import Header from "../_components/landing-header";
-import { FaCheck, FaCogs, FaTasks, FaChartLine, FaRobot, FaMap, FaRoute  } from 'react-icons/fa';
 import Footer from "../_components/footer";
 import Hero from "./hero";
 import Enquire from "./enquire";
