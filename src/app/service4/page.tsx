@@ -28,7 +28,7 @@ const TechConsultationPage = () => {
       <div className="bg-[#F7FFFA]">
         <section className="py-20 px-8 text-white text-center">
           <h1 className="text-4xl text-gray-800 font-bold mb-8">
-          Streamline Your Business with Wisematic's Powerful SAAS Solutions
+          Streamline Your Business with Wisematic&apos;s Powerful SAAS Solutions
           </h1>
         </section>
 
@@ -47,7 +47,7 @@ const TechConsultationPage = () => {
           <div className="flex-1 text-left pr-12 ">
             
             <h2 className="text-2xl text-[#28C5AD] font-semibold -mt-5 mb-4">Software as a service</h2>
-            <p className="text-2xl text-gray-900">Unlock the potential with Wisematic's Custom SaaS tailored to your business needs.</p>
+            <p className="text-2xl text-gray-900">Unlock the potential with Wisematic&apos;s Custom SaaS tailored to your business needs.</p>
             <p className="text-lg text-gray-700 mb-4">
             Struggling to connect with your audience and drive sales? Our SAAS empowers you to create personalized customer journeys, automate marketing tasks, and measure campaign performance with precision. By harnessing the power of data-driven insights, you can optimize your marketing efforts, increase conversions, and build lasting customer relationships.”
             </p>
