@@ -8,30 +8,23 @@ const LearningPage = () => {
   return (
     <div>
       <Header />
-      <div className="relative z-0">
-      <div
-    className="circlePosition w-[800px] h-[500px] bg-[#20D9A1] rounded-[100%] absolute  blur-[100px] top-[30%] left-[10%]"
-    style={{ opacity: 0.3}}
-  ></div>
-       <div
-    className="circlePosition w-[800px] h-[500px] bg-[#5F39FF] rounded-[100%] absolute  blur-[100px] top-[30%] left-[40%]"
-    style={{ opacity: 0.3}}
-  ></div>
+      <div className="relative z-0 bg-black">
+     
       <section className="px-40 pt-40 pb-20 text-center">
-        <h1 className="text-6xl lg:text-4xl z-10 relative text-black mb-4 "
+        <h1 className="text-6xl lg:text-4xl z-10 relative text-white mb-4 "
         style={{ fontFamily: "'Poppins', sans-serif"  }}>
           Welcome to Wisematic Learning Center
         </h1>
       </section>
 
       <div className="px-6 lg:px-20 py-10 ">
-        <h2 className="text-3xl lg:text-2xl font-medium z-10 relative text-black text-center mb-6"
+        <h2 className="text-3xl lg:text-2xl font-medium z-10 relative text-white text-center mb-6"
         style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}>
           Reset Password
         </h2>
 
-        <div className=" z-10 relative max-w-xl mx-auto bg-white shadow-lg rounded-lg p-6 lg:p-8">
-          <p className="text-sm lg:text-base text-gray-600 mb-6 text-center"
+        <div className=" z-10 relative max-w-xl mx-auto bg-white/30 text-white  backdrop-blur-lg shadow-lg rounded-lg p-6 lg:p-8">
+          <p className="text-sm lg:text-base text-white mb-6 text-center"
           style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}>
             Please enter your email address or username. You will receive a link to create a new password via email.
           </p>
@@ -41,7 +34,7 @@ const LearningPage = () => {
             <div>
               <label
                 htmlFor="username"
-                className="block text-sm font-medium text-gray-700 mb-2"
+                className="block text-sm font-medium text-gray-300 mb-2"
                 style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 700 }}
               >
                 Username or Email Address
@@ -50,7 +43,7 @@ const LearningPage = () => {
                 type="text"
                 id="username"
                 placeholder="Your Username or Email"
-                className="w-full px-4 py-2 border border-gray-300 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-[#20D9A1]"
+                className="w-full px-4 py-2 border border-gray-300 rounded-md  focus:outline-none "
                 required
               />
             </div>
@@ -59,7 +52,7 @@ const LearningPage = () => {
             <div className="text-center pt-4">
               <button
                 type="submit"
-                className=" bg-[#303030] text-white font-bold rounded-full px-10 py-3 transition-all"
+                className=" bg-[#3F83C0] text-white font-bold rounded-full px-10 py-3 transition-all"
               >
                 Reset Password
               </button>

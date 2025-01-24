@@ -2,17 +2,15 @@ import React from 'react';
 
 const BlogSection = () => {
   return (
-    <div className="container mx-auto px-4 py-16 relative">
+    <div className="container mx-auto px-4 py-16 relative bg-black">
       <div className="text-center mb-12">
-        <h2 className="text-6xl font-normal text-zinc-900">Most<br />Popular Blog</h2>
-        <p className="text-lg text-gray-700 mt-4">
+        <h2 className="text-6xl font-normal text-white">Most Popular Blog</h2>
+        <p className="text-lg text-gray-200 mt-4">
           Learn from our experts in multiple fields of business that will help your team grow.
         </p>
-        <button className="mt-4 px-6 py-2 bg-zinc-900 text-white rounded-full">Learn More</button>
+        <button className="mt-4 px-8 py-4 bg-[#3F83C0] text-white rounded-full">Learn More</button>
       </div>
       <div className="relative flex justify-center">
-        {/* Gradient Background */}
-        <div className="absolute w-3/4 h-full bg-gradient-to-r from-emerald-400 to-indigo-600 blur-3xl opacity-40"></div>
         
         {/* Blog Cards */}
         <div className="flex justify-center space-x-8 relative">
@@ -38,13 +36,13 @@ const BlogSection = () => {
           ].map((blog, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden w-80 relative transform transition-transform duration-300 hover:scale-105"
+              className="bg-white/30 text-white text-center backdrop-blur-lg rounded-2xl shadow-lg overflow-hidden w-80 relative transform transition-transform duration-300 hover:scale-105"
             >
               <img src={blog.image} alt={blog.title} className="w-full h-60 object-cover" />
               <div className="p-4">
-                <p className="text-xs text-zinc-500">{blog.date}</p>
-                <h3 className="text-2xl text-zinc-900 mt-2">{blog.title}</h3>
-                <p className="text-sm text-neutral-600 mt-2">{blog.description}</p>
+                <p className="text-xs text-gray-200">{blog.date}</p>
+                <h3 className="text-2xl text-white mt-2">{blog.title}</h3>
+                <p className="text-sm text-gray-400 mt-2">{blog.description}</p>
               </div>
             </div>
           ))}

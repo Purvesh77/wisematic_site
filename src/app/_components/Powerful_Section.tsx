@@ -40,14 +40,14 @@ const features = [
 
 const LandingPage = () => {
   return (
-    <div className="relative flex flex-col items-center text-6xl tracking-tighter text-zinc-900 max-md:text-4xl">
-      <div className="relative z-10 mt-11 leading-tight text-center max-md:mt-10 max-md:max-w-full max-md:text-4xl">
+    <div className="relative flex flex-col items-center text-6xl tracking-tighter bg-black text-zinc-900 max-md:text-4xl">
+      <div className="relative z-10 mt-11 leading-tight text-center max-md:mt-10 max-md:max-w-full max-md:text-4xl text-white">
         Power your business
       </div>
-      <div className="relative z-10 leading-none text-center max-md:text-4xl">
+      <div className="relative z-10 leading-none text-center max-md:text-4xl text-white">
         with Wisematic
       </div>
-      <div className="relative z-10 mt-9 text-lg tracking-normal leading-8 text-center max-md:max-w-full">
+      <div className="relative z-10 mt-9 text-lg tracking-normal leading-8 text-center max-md:max-w-full text-gray-200">
         Wisematic seamlessly integrates with your existing infrastructure,
         <br />
         allowing you to effortlessly connect and consolidate data from various
@@ -56,9 +56,7 @@ const LandingPage = () => {
 
       <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-10 mt-28 text-sm tracking-tight leading-6 max-md:mt-10 max-md:max-w-full">
         {/* Central Background */}
-        <div className="absolute inset-0 flex justify-center items-center">
-          <div className="w-[600px] h-[500px] bg-gradient-to-r from-emerald-400 to-indigo-600 rounded-full blur-3xl opacity-30"></div>
-        </div>
+        
         {features.map((feature, index) => (
           <div
             key={index}
@@ -69,8 +67,8 @@ const LandingPage = () => {
               alt={feature.title}
               className="w-12 h-12 mb-4"
             />
-            <h3 className="text-2xl text-zinc-900 mb-2">{feature.title}</h3>
-            <p className="text-lg text-neutral-600">{feature.description}</p>
+            <h3 className="text-2xl  mb-2 text-white" >{feature.title}</h3>
+            <p className="text-lg text-gray-400">{feature.description}</p>
           </div>
         ))}
       </div>

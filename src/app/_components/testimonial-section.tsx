@@ -2,17 +2,17 @@ import React from 'react';
 
 const TestimonialsSection = () => {
   return (
-    <div className="container mx-auto px-4 py-20 relative">
+    <div className="container mx-auto px-4 py-20 relative bg-black">
       <div className="text-center mb-12 relative z-10">
-        <p className="text-sm text-zinc-500 uppercase tracking-wide">Our Testimonials</p>
-        <h2 className="text-6xl font-normal text-zinc-900 mt-4">Check out what<br />our customers have to say</h2>
+        <p className="text-sm text-gray-200 uppercase tracking-wide">Our Testimonials</p>
+        <h2 className="text-6xl font-normal text-white mt-4">Check out what<br />our customers have to say</h2>
       </div>
       
       <div className="relative flex justify-center z-10">
         {/* Gradient Background for the Section */}
-        <div className="absolute inset-0 bg-gradient-to-r from-emerald-400 to-indigo-600 opacity-25 blur-3xl"></div>
+       
         {/* Testimonial Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative p-20">
           {[
             {
               name: "Sarah Smith",
@@ -53,7 +53,7 @@ const TestimonialsSection = () => {
           ].map((testimonial, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow-lg p-6 transform transition-transform duration-300 hover:scale-105"
+              className="bg-white/30 text-white text-center backdrop-blur-lg  rounded-xl shadow-lg p-6 transform transition-transform duration-300 hover:scale-105"
             >
               <div className="flex items-center mb-4">
                 <div className="flex space-x-1">
@@ -64,12 +64,12 @@ const TestimonialsSection = () => {
                   ))}
                 </div>
               </div>
-              <p className="text-base text-zinc-900 mb-4">{testimonial.text}</p>
+              <p className="text-base text-gray-300 mb-4">{testimonial.text}</p>
               <div className="flex items-center">
-                <img src={testimonial.image} alt={testimonial.name} className="w-12 h-12 rounded-full mr-4" />
+                <img src={testimonial.image} alt={testimonial.name} className="w-12 h-12 rounded-full mr-4 z-10" />
                 <div>
-                  <p className="text-sm font-medium text-zinc-900">{testimonial.name}</p>
-                  <p className="text-xs text-zinc-500">{testimonial.role}</p>
+                  <p className="text-sm font-medium text-white">{testimonial.name}</p>
+                  <p className="text-xs text-white">{testimonial.role}</p>
                 </div>
               </div>
             </div>

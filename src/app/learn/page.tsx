@@ -16,21 +16,14 @@ const LearningPage = () => {
       <Header />
 
       
-      <div>
+      <div className="bg-black pb-60">
       <div className="relative z-0">
-      <div
-    className="circlePosition w-[800px] h-[800px] bg-[#20D9A1] rounded-[100%] absolute  blur-[100px] top-[30%] left-[10%]"
-    style={{ opacity: 0.3}}
-  ></div>
-       <div
-    className="circlePosition w-[800px] h-[800px] bg-[#5F39FF] rounded-[100%] absolute  blur-[100px] top-[30%] left-[40%]"
-    style={{ opacity: 0.3}}
-  ></div>
+      
       <section className="px-40 pt-40 flex flex-col lg:flex-row items-center justify-between lg:px-40 py-16 gap-10"
       style={{paddingLeft: '120px', paddingRight: '120px'}}>
         <div className="w-full md:w-1/2 text-left space-y-4 ">
          
-        <h2 className="text-6xl  text-black mb-4 "
+        <h2 className="text-6xl  text-white mb-4 "
         style={{ fontFamily: "'Poppins', sans-serif", maxWidth: '600px',  }}>
          Welcome to Wisematic Learning Center
         </h2>
@@ -38,7 +31,7 @@ const LearningPage = () => {
 
         <div className="flex flex-col ">
 
-        <p className="text-xl text-black pt-10 pl-20 mt-10 "
+        <p className="text-xl text-gray-300 pt-10 pl-20 mt-10 "
         style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
          Collaboration fuels innovation and drives success. Wisematic fosters a culture of seamless collaboration.
         </p>
@@ -57,7 +50,7 @@ const LearningPage = () => {
           </div>
 
           {/* Right Column: Contact Form */}
-          <div className="bg-white z-10 shadow-lg rounded-lg p-8 flex flex-col justify-center">
+          <div className=" z-10 bg-white/30 text-white  backdrop-blur-lg shadow-lg rounded-lg p-8 flex flex-col justify-center">
           <div className="flex justify-center items-center mb-6">
     <img
       src="/logo.png"
@@ -77,12 +70,12 @@ const LearningPage = () => {
 
 
     </div>
-            <form className="space-y-6 flex flex-col items-center">
+            <form className="space-y-6 flex  flex-col items-center">
               {/* Username/Email Input */}
-              <div className="w-full">
+              <div className="w-full ">
                 <label
                   htmlFor="username"
-                  className="block text-gray-700 font-medium mb-2"
+                  className="block text-gray-300 font-medium mb-2"
                 >
                   Username or Email Address
                 </label>
@@ -90,7 +83,7 @@ const LearningPage = () => {
                   type="text"
                   id="username"
                   placeholder="Your Name"
-                  className="w-full px-4 py-3 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#20D9A1]"
+                  className="w-full px-4 py-3 border  border-gray-300 rounded-lg focus:outline-none bg-white"
                   required
                 />
               </div>
@@ -99,7 +92,7 @@ const LearningPage = () => {
               <div className="w-full relative">
                 <label
                   htmlFor="password"
-                  className="block text-gray-700 font-medium mb-2"
+                  className="block text-gray-300 font-medium mb-2"
                 >
                   Password
                 </label>
@@ -107,7 +100,7 @@ const LearningPage = () => {
                   type={passwordVisible ? "text" : "password"}
                   id="password"
                   placeholder="Your Password"
-                  className="w-full px-4 py-3 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#20D9A1]"
+                  className="w-full px-4 py-3 border  border-gray-300 rounded-lg focus:outline-none bg-white"
                   required
                 />
                 {/* Eye Icon for Toggling Password */}
@@ -140,7 +133,7 @@ const LearningPage = () => {
 
               {/* Remember Me Checkbox and Forgot Password Link */}
               <div className="w-full flex items-center justify-between">
-                <label className="flex items-center text-gray-700">
+                <label className="flex items-center text-gray-300">
                   <input
                     type="checkbox"
                     className="mr-2 rounded border-gray-300"
@@ -149,7 +142,7 @@ const LearningPage = () => {
                 </label>
                 <a
                   href="/forgotPassword"
-                  className="text-black hover:underline text-sm"
+                  className="text-white hover:underline text-sm"
                 >
                   Forgot Password?
                 </a>
@@ -158,7 +151,7 @@ const LearningPage = () => {
               {/* Submit Button */}
               <button
                 type="submit"
-                className="bg-[#303030] text-white text-center font-bold rounded-full hover:opacity-90 transition-opacity py-4 px-10"
+                className="bg-[#3F83C0] text-white text-center font-bold rounded-full hover:opacity-90 transition-opacity py-4 px-10"
               >
                 Login
               </button>
@@ -167,7 +160,7 @@ const LearningPage = () => {
         </div>
       </div>
       </div>
-      <div className="pt-60 "></div>
+     
       <Footer/>
     </div>
   );
