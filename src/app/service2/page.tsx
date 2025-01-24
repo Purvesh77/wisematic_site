@@ -1,4 +1,3 @@
-
 "use client";
 import Header from "../_components/landing-header";
 import Footer from "../_components/footer";
@@ -8,18 +7,13 @@ import Cards from "./cards";
 
 const AppDev = () => {
   return (
-    <div>
+    <div className="bg-black text-white">
       {/* Header */}
       <Header />
       <Hero />
-
-      <div>
-       
-        
-      </div>
-      <Cards/>
-      <Enquire/>
-<Footer/> 
+      <Cards />
+      <Enquire />
+      <Footer />
     </div>
   );
 };
