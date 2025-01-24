@@ -120,27 +120,20 @@ const Services = () => {
   const [selectedService, setSelectedService] = useState(services.service1);
 
   return (
-    <div>
+    <div className="bg-black">
       <section className="px-40 pt-20 text-center ">
-        <h1 className="text-5xl text-black mb-6" style={{ fontFamily: "'Poppins', sans-serif" }}>
+        <h1 className="text-5xl text-white mb-6" style={{ fontFamily: "'Poppins', sans-serif" }}>
           How we can help you?
         </h1>
 
-        <p className="text-lg text-gray-700 mb-20 mt-10 text-center" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
+        <p className="text-lg text-gray-300 mb-20 mt-10 text-center" style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
           From concept to execution, we provide comprehensive support to help you navigate the complexities of digital transformation.
         </p>
       </section>
 
       {/* Links Section */}
       <div className="relative z-0">
-        <div
-          className="circlePosition w-[750px] h-[500px] bg-[#20D9A1] rounded-full absolute blur-[100px] top-[15%] left-[10%]"
-          style={{ opacity: 0.3 }}
-        ></div>
-        <div
-          className="circlePosition w-[750px] h-[500px] bg-[#5F39FF] rounded-full absolute blur-[100px] top-[15%] left-[40%]"
-          style={{ opacity: 0.3 }}
-        ></div>
+       
         <div className="py-10 px-40">
           <div className="flex justify-center gap-6">
             {/* Links */}
@@ -148,7 +141,7 @@ const Services = () => {
               <button
                 key={index}
                 onClick={() => setSelectedService(services[key])}
-                className="shadow-lg z-10 bg-white hover:bg-gray-100 hover:text-black text-black px-10 py-4 rounded-full flex items-center justify-center font-bold transition-all duration-300"
+                className="shadow-lg z-10 bg-white/30 text-white text-center backdrop-blur-lg  hover:bg-gray-100 hover:text-black  px-10 py-4 rounded-full flex items-center justify-center font-bold transition-all duration-300"
               >
                 {/* Dynamic Icon */}
                 {key === "service1" && <FaLaptopCode className="text-3xl mr-4 transition-all duration-100" />}
@@ -186,7 +179,7 @@ const Services = () => {
       <div className="flex justify-center">
         <Link
           href="/contact"
-          className="bg-gray-100 z-10 text-black px-10 py-4 rounded-full mt-10 inline-block text-center font-bold border-2 border-black"
+          className="bg-[#3F83C0] z-10 text-white px-10 py-4 rounded-full mt-10 inline-block text-center font-bold border-2 border-black"
         >
           Explore More
         </Link>

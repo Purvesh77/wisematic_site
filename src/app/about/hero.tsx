@@ -2,15 +2,15 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div>
+    <div className='bg-black'>
        
        <section className="px-40 pt-20 text-center justify-between lg:px-40 py-16 gap-10"
       style={{paddingLeft: '120px', paddingRight: '120px'}}>
-         <p className="text-lg text-gray-700  p-10 mt-10 "
+         <p className="text-lg text-gray-200  p-10 mt-10 "
         style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 500 }}>
          55,000+ TRUSTED BUSINESSES
         </p>
-        <h2 className="text-6xl  text-black mb-4 "
+        <h2 className="text-6xl  text-white mb-4 "
         style={{ fontFamily: "'Poppins', sans-serif"  }}>
         We&apos;re powering the future of business with Wisematic
         </h2>
@@ -18,14 +18,7 @@ const Hero = () => {
 
 {/* Image Section */}
       <div className="relative z-0 h-screen">
-      <div
-    className="circlePosition w-[770px] h-[620px] bg-[#20D9A1] rounded-[100%] absolute  blur-[100px] top-[0%] left-[10%]"
-    style={{ opacity: 0.3}}
-  ></div>
-       <div
-    className="circlePosition w-[770px] h-[620px] bg-[#5F39FF] rounded-[100%] absolute  blur-[100px] top-[0%] left-[40%]"
-    style={{ opacity: 0.3}}
-  ></div>
+      
    <img
   src="/office.jpg"
   alt="Hero Image"

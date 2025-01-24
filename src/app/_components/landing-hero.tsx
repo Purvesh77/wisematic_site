@@ -1,86 +1,65 @@
 
-"use client";
-import '../styles/hero.css'
+import React from "react";
 import { FaCheck } from "react-icons/fa";
 
-const HeroSection = () => {
+const Hero = () => {
   return (
-    <section className="flex flex-col lg:flex-row items-center justify-between min-h-screen relative">
-      {/* Left Content */}
-      <div
-        className="relative z-10 w-full lg:w-1/2 text-left max-w-xl pb-40"
-        style={{ marginLeft: "100px" }}
+    <div className="flex flex-col justify-center items-center pt-20 bg-black">
+      {/* Centered Button */}
+      <div className="relative z-10 text-3xl bg-white/30 rounded-full text-white text-center backdrop-blur-lg w-80 h-20 flex justify-center items-center">
+        WISE & STEALLER
+      </div>
+      {/* Heading */}
+      <h1 className="text-4xl lg:text-7xl text-white text-center leading-tight mt-10">
+        <span>Build your next project faster.</span>
+      </h1>
+      {/* Description */}
+      <p
+        className="text-base lg:text-xl mt-10 text-gray-400 text-center"
+        style={{ fontFamily: "'Poppins', sans-serif", maxWidth: "600px" }}
       >
-        <h1 className="text-3xl text-[#333]  font-thin mb-4 mt-10">
-          Wise and Stealler
-        </h1>
-        <h1 className="text-6xl leading-tight mb-6">
-          <span className="text-black">
-            Build your next project faster.
+        Elevate your business with Wisematic&apos;s innovative and reliable
+        solutions. Dynamic solutions for tangible business success.
+      </p>
+
+      {/* Input Field and Button */}
+      <div className="flex justify-center items-center mt-10 w-full">
+        <div className="relative w-full max-w-md"> {/* Limit width for input field */}
+          <input
+            type="email"
+            placeholder="Enter your email address"
+            className="w-full p-4 pr-40 border border-gray-300 text-black rounded-full focus:outline-none"
+          />
+          <button
+            className="absolute right-0 top-1/2 transform -translate-y-1/2 px-6 py-4 bg-[#3F83C0] text-white font-medium rounded-full hover:bg-blue-600 transition duration-300"
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
+
+      <div className="flex flex-wrap justify-center lg:justify-start space-x-0 lg:space-x-8 pt-10 space-y-4 lg:space-y-0 pb-20">
+        <div className="flex items-center space-x-2">
+          <div className="flex items-center justify-center w-8 h-8 bg-[#3F83C0] rounded-full">
+            <FaCheck className="text-white text-lg" />
+          </div>
+          <span className="text-white text-base lg:text-lg font-medium">
+            Uptime Guarantee
           </span>
-        </h1>
+        </div>
 
-        <p
-          className="text-lg text-gray-700 mb-10"
-          style={{ fontFamily: "'Poppins', sans-serif"}}
-        >
-          Elevate your business with Wisematic’s innovative and reliable
-          solutions. Dynamic solutions for tangible business success.
-        </p>
-
-        <div className="flex items-center w-full">
-  <div className="relative w-2/3">
-    <input
-      type="email"
-      placeholder="Enter your email address"
-      className="w-full p-4 pr-40 border border-gray-300 text-black rounded-full focus:outline-none "
-    />
-    <button
-      className="absolute right-0 top-1/2 transform -translate-y-1/2  px-6 py-4 bg-[#303030] text-white font-medium rounded-full hover:bg-blue-600 transition duration-300"
-    >
-      Get Started
-    </button>
-  </div>
-</div>
-
-<div className="flex space-x-8 pt-10">
-    
-    <div className="flex items-center space-x-2">
-      <div className="flex items-center justify-center w-8 h-8 bg-[#303030] rounded-full ">
-                        <FaCheck className="text-white text-lg" />
-                      </div>
-      <span className="text-gray-700 text-lg font-medium">Uptime Gurantee</span>
-    </div>
-
-  
-    <div className="flex items-center space-x-2">
-    <div className="flex items-center justify-center w-8 h-8 bg-[#303030] rounded-full ">
-                        <FaCheck className="text-white text-lg" />
-                      </div>
-      <span className="text-gray-700 text-lg font-medium">Custom Soluntions Tailored</span>
-    </div>
-  </div>
+        <div className="flex items-center space-x-2">
+          <div className="flex items-center justify-center w-8 h-8 bg-[#3F83C0] rounded-full">
+            <FaCheck className="text-white text-lg" />
+          </div>
+          <span className="text-white text-base lg:text-lg font-medium">
+            Custom Solutions Tailored
+          </span>
+        </div>
       </div>
 
-      
-
-      <div>
-      <div
-    className="circlePosition w-[460px] h-[400px] bg-[#20D9A1] rounded-[100%] absolute z-1 blur-[100px] top-[20%] left-[45%]"
-    style={{ opacity: 0.5}}
-  ></div>
-       <div
-    className="circlePosition w-[460px] h-[420px] bg-[#5F39FF] rounded-[100%] absolute z-1 blur-[100px] top-[20%] left-[69%]"
-    style={{ opacity: 0.5}}
-  ></div>
-      </div>
-      <img
-    src="/hero.png"
-    alt="Hero Image"
-    className="absolute z-10 top-[5%] left-[70%] translate-x-[-50%] w-[500px] h-[600px] "
-  />
-    </section>
+    </div>
   );
 };
 
-export default HeroSection;
+export default Hero;
