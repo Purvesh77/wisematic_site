@@ -10,37 +10,43 @@ const Services = () => {
       title: "Technology Consulting",
       description:
         "Our expert consultants offer strategic guidance and actionable insights, helping you leverage technology to achieve your business goals.",
+        path: "/service1",
     },
     {
       icon: <FaMobileAlt className="text-5xl text-white mb-4" />,
       title: "Application Services",
       description:
         "Whether you need custom application development or maintenance, our team delivers robust and innovative solutions tailored to your specific requirements.",
-    },
+        path: "/service2",
+      },
     {
       icon: <FaCloud className="text-5xl text-white mb-4" />,
       title: "Software as Service",
       description:
         "Simplify your operations with our scalable and reliable SaaS solutions. We provide tools that empower your business to function seamlessly.",
-    },
+        path: "/service3",
+      },
     {
       icon: <FaDatabase className="text-5xl text-white mb-4" />,
       title: "Data Analytics",
       description:
         "Our analytics services provide deep insights that drive strategic decision-making, optimize performance, and uncover new growth opportunities.",
-    },
+        path: "/service5",
+      },
     {
       icon: <FaRobot className="text-5xl text-white mb-4" />,
       title: "AI & Automation",
       description:
         "Embrace the future with our advanced AI and automation solutions. From streamlining workflows to enhancing customer experiences.",
-    },
+        path: "/service4",
+      },
     {
       icon: <FaBullhorn className="text-5xl text-white mb-4" />,
       title: "Digital Marketing",
       description:
         "Amplify your reach & connect with your target audience through innovative data-driven marketing strategies. We craft campaigns that resonate and convert.",
-    },
+        path: "/service6",
+      },
   ];
 
   return (
@@ -99,8 +105,8 @@ const Services = () => {
                 {service.description}
               </p>
               <a
-                href="#"
-                className="bg-gray-400 text-black text-sm md:text-base px-6 py-2 rounded-full inline-block font-semibold text-center self-start mt-auto"
+                href={service.path}
+                className="bg-gray-200 text-black text-sm md:text-base px-6 py-2 rounded-full inline-block font-semibold text-center self-start mt-auto"
                 style={{
                   marginTop: "auto",
                 }}

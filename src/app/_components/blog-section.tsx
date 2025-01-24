@@ -2,7 +2,7 @@ import React from 'react';
 
 const BlogSection = () => {
   return (
-    <div className="container mx-auto px-4 py-16 relative bg-black">
+    <div className="container mx-auto  py-16 relative bg-black">
       <div className="text-center mb-12">
         <h2 className="text-6xl font-normal text-white">Most Popular Blog</h2>
         <p className="text-lg text-gray-200 mt-4">

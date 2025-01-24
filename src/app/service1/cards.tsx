@@ -4,15 +4,7 @@ import { FaCogs, FaTasks, FaChartLine, FaRobot, FaRoute } from "react-icons/fa";
 const Cards = () => {
   return (
     <div className="relative z-0 ">
-      <div
-        className="circlePosition w-[770px] h-[600px] bg-[#20D9A1] rounded-[100%] absolute blur-[100px] top-[15%] left-[10%]"
-        style={{ opacity: 0.3 }}
-      ></div>
-      <div
-        className="circlePosition w-[770px] h-[600px] bg-[#5F39FF] rounded-[100%] absolute blur-[100px] top-[15%] left-[40%]"
-        style={{ opacity: 0.3 }}
-      ></div>
-
+     
       <section className="py-60 -mt-10 px-8 z-10 relative">
         <div
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8"
