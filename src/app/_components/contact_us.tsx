@@ -5,11 +5,11 @@ const ContactUs = () => {
   return (
     <div className="relative min-h-screen flex flex-col items-center justify-center">
       <div
-        className="circlePosition w-[600px] h-[400px] bg-[#20D9A1] rounded-full absolute blur-[100px] top-[30%] left-[10%]"
+        className="circlePosition w-[300px] h-[200px] bg-[#20D9A1] rounded-full absolute blur-[100px] top-[30%] left-[50%] transform -translate-x-1/2"
         style={{ opacity: 0.4 }}
       ></div>
       <div
-        className="circlePosition w-[600px] h-[400px] bg-[#5F39FF] rounded-full absolute blur-[100px] top-[30%] left-[40%]"
+        className="circlePosition w-[300px] h-[200px] bg-[#5F39FF] rounded-full absolute blur-[100px] top-[50%] left-[50%] transform -translate-x-1/2"
         style={{ opacity: 0.4 }}
       ></div>
       {/* Header Section */}
@@ -42,9 +42,7 @@ const ContactUs = () => {
             <div className="flex flex-row gap-4 w-full">
               {/* Name Input */}
               <div className="flex-1">
-                <label htmlFor="name" className="block text-black font-medium mb-2">
-                 
-                </label>
+                <label htmlFor="name" className="block text-black font-medium mb-2"></label>
                 <input
                   type="text"
                   id="name"
@@ -55,9 +53,7 @@ const ContactUs = () => {
               </div>
               {/* Email Input */}
               <div className="flex-1">
-                <label htmlFor="email" className="block text-black font-medium mb-2">
-                  
-                </label>
+                <label htmlFor="email" className="block text-black font-medium mb-2"></label>
                 <input
                   type="email"
                   id="email"
@@ -69,12 +65,10 @@ const ContactUs = () => {
             </div>
             {/* Message Input */}
             <div className="w-full">
-              <label htmlFor="message" className="block text-black font-medium mb-2">
-               
-              </label>
+              <label htmlFor="message" className="block text-black font-medium mb-2"></label>
               <textarea
                 id="message"
-                rows={4} // Corrected here
+                rows={4}
                 placeholder="Your Message"
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none text-black"
                 required
