@@ -245,9 +245,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header
-      className="text-white flex justify-between items-center py-6 px-6 bg-[#1a1a1a]"
-    >
+    <header className="text-white flex justify-between items-center py-6 px-6 bg-[#1a1a1a]">
       {/* Logo and Name */}
       <div className="flex items-center">
         <img src="/logo.png" alt="Logo" className="h-10" />
@@ -267,6 +265,12 @@ const Header = () => {
           menuOpen ? "block" : "hidden"
         } lg:flex flex-col lg:flex-row items-center bg-[#1a1a1a] lg:bg-transparent absolute lg:relative top-16 lg:top-0 left-0 w-full lg:w-auto z-50 lg:z-auto p-6 lg:p-0`}
       >
+        <Link
+          href="/"
+          className="cursor-pointer hover:text-[#20D9A1] font-bold py-2 lg:py-0 lg:mx-4"
+        >
+          Home
+        </Link>
         <Link
           href="/about"
           className="cursor-pointer hover:text-[#20D9A1] font-bold py-2 lg:py-0 lg:mx-4"
