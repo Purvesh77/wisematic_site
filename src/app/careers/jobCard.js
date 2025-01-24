@@ -4,7 +4,7 @@ import { FaBriefcase, FaClock, FaHome, FaArrowRight } from "react-icons/fa";
 // JobCard Component
 const JobCard = ({ title, business, employmentType, location }) => {
   return (
-    <div className="bg-[#2C2C2C] shadow-md rounded-lg p-6 hover:shadow-lg w-[430px] transition duration-300">
+    <div className="bg-[#2C2C2C] shadow-md rounded-lg p-6 hover:shadow-lg w-[430px] transition duration-300 hover:scale-105 w-[430px]">
       <h3 className="text-xl font-bold mb-4">{title}</h3>
       <div className="flex flex-col gap-2 text-white">
         {/* Business */}
