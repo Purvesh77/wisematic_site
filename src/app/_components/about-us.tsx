@@ -76,7 +76,7 @@ const AboutUs = () => {
             className="text-center z-10 relative text-white text-sm sm:text-base"
             style={{ fontFamily: "'Poppins', sans-serif" }}
           >
-            Using Wisematic's solutions and loving it!
+            Using Wisematic&apos;s solutions and loving it!
           </span>
         </div>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaMobileAlt, FaGlobe, FaCheckCircle, FaShippingFast, FaPuzzlePiece, FaLightbulb } from 'react-icons/fa';
+import { FaMobileAlt, FaGlobe, FaCheckCircle, FaShippingFast, FaLightbulb } from 'react-icons/fa';
 
 const Cards = () => {
   return (

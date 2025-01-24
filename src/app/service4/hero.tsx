@@ -26,7 +26,7 @@ const Hero = () => {
           {/* Right Section: Heading */}
           <div className="w-full md:w-1/2 text-left">
             <h2 className="text-6xl mb-4" style={{ fontFamily: "'Poppins', sans-serif" }}>
-              Streamline Your Business with Wisematic's Powerful SAAS Solutions
+              Streamline Your Business with Wisematic&apos;s Powerful SAAS Solutions
             </h2>
           </div>
         </div>
